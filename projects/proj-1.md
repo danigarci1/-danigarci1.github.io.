@@ -3,7 +3,8 @@ layout: post
 title: 'Project One'
 ---
 
-{% for img in {{ site.github.url }}/assets/img/projects/proj-1/ %}
-    {{img}}
-    {% include image.html image="projects/proj-1/{{img}}.jpg" %}
-{% endfor %}
+    {% include image.html image="projects/proj-1/DSC05267.jpg" %}
+    {% include image.html image="projects/proj-1/DSC05272.jpg" %}
+    {% include image.html image="projects/proj-1/DSC05279.jpg" %}
+    {% include image.html image="projects/proj-1/DSC05281.jpg" %}
+
