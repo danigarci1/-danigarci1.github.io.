@@ -3,7 +3,6 @@
 
 menu:
 - {name: 'ARTWORKS', url: 'projects'}
-# - {name: 'Blog',     url: 'blog'}
 - {name: 'MEET ME',    url: 'about'}
 - {name: 'CONTACT',  url: 'contact'}
 
