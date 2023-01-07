@@ -1,7 +1,7 @@
 ---
 layout: about
-title: About
-permalink: /about
+title: Sobre la marca
+permalink: /sobre-la-marca
 ---
 
 <!-- # Portfolio Jekyll Theme

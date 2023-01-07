@@ -2,15 +2,16 @@
 # General Site Settings
 
 menu:
-- {name: 'ARTWORKS', url: 'projects'}
-- {name: 'MEET ME',    url: 'about'}
-- {name: 'CONTACT',  url: 'contact'}
+- {name: 'PROYECTOS', url: 'projects'}
+- {name: 'COLABORACIONES', url: 'colaboraciones'}
+- {name: 'SOBRE LA MARCA',    url: 'sobre-la-marca'}
+- {name: 'CONTACTO',  url: 'contacto'}
 
 #-------------------------------
 # Projects Section
 
 projects:
-- {name: 'Project One',   url: 'proj-1'}
+- {name: 'AURA',   url: 'proj-1'}
 
 #-------------------------------
 # Contact Section
