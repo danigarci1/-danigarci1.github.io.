@@ -1,13 +1,9 @@
-<div class="gallery">
-
-<p>{{ include.location }}</p>
+<div class="gallery-container">
 
 {% for image in site.static_files %}
-<p>{{ image.path }}</p>
 {% if image.path contains include.location %}
-<p>{{ image.path }}</p>
 <div class="image-container">
-    <img src="{{ image.path }}" alt="" class="image">
+    <img src="{{ image.path }}" alt="" loading="lazy" class="image">
 </div>
 {% endif %}
 {% endfor %}
