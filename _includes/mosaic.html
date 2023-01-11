@@ -1,0 +1,5 @@
+{% for image in {{ include.path }} %}
+<div class="image-container">
+    <img src="{{image}}" alt="Avatar" class="image">
+</div>
+{% enfor %}
