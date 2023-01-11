@@ -1,8 +1,7 @@
-<div>
-{% for image in {{ site.github.url }}/assets/img/projects/{{ include.location }}/ %}
-image
+{% for image in site.static_files %}
+{% if image.path contains '{{ include.location }}' %}
 <div class="image-container">
-    <img src="{{ image }}" alt="Avatar" class="image">
+    <img src="{{ image.path }}" alt="Avatar" class="image">
 </div>
+{% endif %}
 {% endfor %}
-</div>
