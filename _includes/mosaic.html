@@ -1,5 +1,5 @@
 <div class="image-container">
-{% for image in {{ include.location }} %}
+{% for image in {{ site.github.url }}/assets/img/projects/{{ include.location }}/ %}
 <div class="image-container">
     <img src="{{ image }}" alt="Avatar" class="image">
 </div>
