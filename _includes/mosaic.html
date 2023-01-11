@@ -2,7 +2,7 @@
 
 {% for image in site.static_files %}
 {% if image.path contains include.location %}
-<div class="image-container" style="width:50%">
+<div class="image-container" style="width:50%;flex: 1">
     <img src="{{ image.path }}" alt="" loading="lazy" class="image">
 </div>
 {% endif %}
