@@ -1,7 +1,7 @@
 {% for image in site.static_files %}
 {% if image.path contains '{{ include.location }}' %}
 <div class="image-container">
-    <img src="{{ image.path }}" alt="Avatar" class="image">
+    <img src="{{ image.path }}" alt="" class="image">
 </div>
 {% endif %}
 {% endfor %}
