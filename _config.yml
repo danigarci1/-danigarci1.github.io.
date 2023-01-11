@@ -10,3 +10,8 @@ plugins:   [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
 title:		   "Naia Iturrioz Studio"
 description: "Naia Iturrioz Studio"
 author:      "Naia Iturrioz"
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
