@@ -5,6 +5,7 @@
 {% for image in site.static_files %}
 <p>{{ image.path }}</p>
 {% if image.path contains '{{ include.location }}' %}
+<p>{{ image.path }}</p>
 <div class="image-container">
     <img src="{{ image.path }}" alt="" class="image">
 </div>
